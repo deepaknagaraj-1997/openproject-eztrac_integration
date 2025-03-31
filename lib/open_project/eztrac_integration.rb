@@ -1,5 +1,5 @@
 module OpenProject
   module EztracIntegration
-    require 'openproject/eztrac_integration/engine'
+    require 'open_project/eztrac_integration/engine'
   end
 end

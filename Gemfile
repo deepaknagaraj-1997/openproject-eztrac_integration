@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem 'faraday', '~> 2.12', '>= 2.12.2'
 # Specify your gem's dependencies in openproject-eztrac_integration.gemspec.
 gemspec
 

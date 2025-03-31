@@ -1,4 +1,9 @@
-require_relative "lib/openproject/eztrac_integration/version"
+# require_relative "lib/open_project/eztrac_integration/version"
+
+$:.push File.expand_path("../lib", __FILE__)
+$:.push File.expand_path("../../lib", __dir__)
+
+require "open_project/eztrac_integration/version"
 
 Gem::Specification.new do |spec|
   spec.name        = "openproject-eztrac_integration"

@@ -1,1 +1,1 @@
-require "openproject/eztrac_integration"
+require "open_project/eztrac_integration"

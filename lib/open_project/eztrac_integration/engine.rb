@@ -1,4 +1,4 @@
-require "openproject/plugins"
+require "open_project/plugins"
 
 module Openproject::EztracIntegration
   class Engine < ::Rails::Engine
@@ -18,15 +18,15 @@ module Openproject::EztracIntegration
                    permissible_on: [:project]
       end
 
-      menu :project_menu,
-           :eztrac,
-           { controller: 'eztrac/teams', action: 'index' },
-           after: :overview,
-           param: :project_id,
-           caption: "EZTrac",
-           icon: :squirrel,
-           html: { id: "eztrac-menu-item" },
-           if: ->(project) { true }
+    #   menu :project_menu,
+    #        :eztrac,
+    #        { controller: 'eztrac/teams', action: 'index' },
+    #        after: :overview,
+    #        param: :project_id,
+    #        caption: "EZTrac",
+    #        icon: :squirrel,
+    #        html: { id: "eztrac-menu-item" },
+    #        if: ->(project) { true }
     end
 
   end

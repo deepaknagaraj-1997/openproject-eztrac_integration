@@ -1,0 +1,2 @@
+module Eztrac::TeamsHelper
+end

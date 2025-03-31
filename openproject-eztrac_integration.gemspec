@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
     Dir["{app,config,db,lib}/**/*", "CHANGELOG.md", "README.md"]
   end
 
-  spec.add_dependency "rails", '~> 7.0'
+  spec.add_dependency "rails", '>= 7', '< 9'
 end
